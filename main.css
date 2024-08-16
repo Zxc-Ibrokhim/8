@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.filter-inputs {
+    margin-bottom: 20px;
+}
+input {
+    padding: 10px;
+    margin: 5px;
+    width: calc(50% - 12px);
+    font-size: 16px;
+}
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card img {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+}
+.card-content {
+    flex: 1;
+}
+.card-title {
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+}
+.card-age {
+    font-size: 14px;
+    color: #777;
+}
